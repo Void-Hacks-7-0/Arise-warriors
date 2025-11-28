@@ -22,3 +22,5 @@ ml-service/models/*.pkl
 # OS
 .DS_Store
 Thumbs.db
+
+backend/.env
