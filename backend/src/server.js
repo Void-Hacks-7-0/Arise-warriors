@@ -30,6 +30,7 @@ connectDB();
 // API Routes
 // ---------------------
 app.use("/api/auth", authRoutes);
+app.use("/api/transactions", require("./routes/transactions"));
 
 // Health Check
 app.get("/", (req, res) => {
